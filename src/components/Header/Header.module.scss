@@ -1,0 +1,17 @@
+@use "../../styles/variables" as variables;
+
+.header {
+  background-color: variables.$color-background;
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    gap: variables.$space-md;
+  }
+}
